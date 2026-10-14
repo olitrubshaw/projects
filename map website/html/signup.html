@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="synoptic.css">
+  <title>Sign Up Page</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="signup.js" defer></script>
+</head>
+
+<body>
+  <div id = "wrapper">
+    <header>  
+      <h1>Sign Up</h1>
+    </header>
+  </div>
+  <main>
+    <h3 id = 'h3title'>Sign up</h3>
+    <section>
+        <form id = "myForm" method = "post" action="#">
+            <fieldset>
+                <legend>Signup Form</legend>
+                <label for = "name">Username*: </label>
+                <input type = "text" id = "name" name = "name" required>
+                <label for = "password">Password*: </label>
+                <input type = "password" id = "password" name = "password" required>
+                <p><button type="button" class="btn" id ="submitButton">Join Us!</button></p>
+                <p id = "errorBox"></p>
+            </fieldset>
+        </form>
+    </section>
+  </main>
+  <nav class="timetable-nav">
+    <a href="map.html" class="btn btn-secondary">Map</a>
+    <a href="timetable.html" class="btn btn-secondary">Timetable</a>
+    <a href="tickets.html" class="btn btn-secondary">Tickets</a>
+    <a href="login.html" class="btn btn-primary">Log in</a>
+  </nav>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="synoptic.css">
+  <title>Sign Up Page</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="tickets.js" defer></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>Tickets</h1>
+    </header>
+  </div>
+
+  <main>
+    <h3 id="h3title">&nbsp;</h3>
+    <section>
+      <form id="myForm" method="post" action="#">
+        <fieldset>
+          <legend>Buy Tickets</legend>
+
+          <label for="date">Date*: </label>
+          <input type="date" id="date" name="date" required>
+
+          <label for="start_location">Start location*: </label>
+          <select id="start_location" name="start_location" required>
+            <option value="">Select start location</option>
+            <option value="Icknield Port Road">Icknield Port Road</option>
+            <option value="Ladywood Fire Station">Ladywood Fire Station</option>
+            <option value="Leyburn Road">Leyburn Road</option>
+            <option value="Osler Street">Osler Street</option>
+            <option value="Cope Street">Cope Street</option>
+            <option value="Clement Street">Clement Street</option>
+            <option value="Roundhouse">Roundhouse</option>
+            <option value="Ruston Street">Ruston Street</option>
+            <option value="Crescent Theatre">Crescent Theatre</option>
+            <option value="King Edwards Road">King Edwards Road</option>
+            <option value="Spring Hill Island">Spring Hill Island</option>
+          </select>
+
+          <label for="end_location">End location*: </label>
+          <select id="end_location" name="end_location" required>
+            <option value="">Select end location</option>
+            <option value="Icknield Port Road">Icknield Port Road</option>
+            <option value="Ladywood Fire Station">Ladywood Fire Station</option>
+            <option value="Leyburn Road">Leyburn Road</option>
+            <option value="Osler Street">Osler Street</option>
+            <option value="Cope Street">Cope Street</option>
+            <option value="Clement Street">Clement Street</option>
+            <option value="Roundhouse">Roundhouse</option>
+            <option value="Ruston Street">Ruston Street</option>
+            <option value="Crescent Theatre">Crescent Theatre</option>
+            <option value="King Edwards Road">King Edwards Road</option>
+            <option value="Spring Hill Island">Spring Hill Island</option>
+          </select>
+
+          <p><button type="submit" class="btn">Buy Ticket</button></p>
+          <p id="errorBox"></p>
+        </fieldset>
+      </form>
+    </section>
+
+    <h3>Your Tickets</h3>
+    <table id="ticketsTable">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Start Location</th>
+          <th>End Location</th>
+        </tr>
+      </thead>
+      <tbody id="ticketsBody"></tbody>
+    </table>
+  </main>
+
+  <nav class="timetable-nav">
+    <a href="map.html" class="btn btn-secondary">Map</a>
+    <a href="timetable.html" class="btn btn-secondary">Timetable</a>
+    <a href="tickets.html" class="btn btn-primary">Tickets</a>
+    <a href="login.html" class="btn btn-secondary">Log in</a>
+  </nav>
+</body>
+
+</html>
