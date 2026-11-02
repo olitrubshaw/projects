@@ -1,0 +1,3 @@
+/Users/abc/Desktop/year 2/programming 2/c coursework/cmake-build-debug/CMakeFiles/c_coursework.dir
+/Users/abc/Desktop/year 2/programming 2/c coursework/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/abc/Desktop/year 2/programming 2/c coursework/cmake-build-debug/CMakeFiles/rebuild_cache.dir
